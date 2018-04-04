@@ -10,6 +10,11 @@ Avaliar aspectos do uso do framework Symfony com GraphQL. Ligado a pesquisa de: 
 
 ```docker run --rm -v $(pwd):/app composer:1.5.1 create-project symfony/skeleton sf4
 
+## Inicia Symfony
+
+```cd sf4
+``` php -S 127.0.0.1:8000 -t public
+
 ## Referências
 
 * https://github.com/vinnyfs89/study-symfony-4
