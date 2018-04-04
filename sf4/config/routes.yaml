@@ -2,6 +2,10 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
-app_hello_world:
+app_hello:
   path: /hello/world
   controller: App\Controller\HelloController::world
+
+app_carro:
+  path: /carro
+  controller: App\Controller\CarroController::index

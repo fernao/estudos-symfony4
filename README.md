@@ -34,6 +34,12 @@ Crie o banco
 ```php bin/console doctrine:database:create
 ```php bin/console make:migration
 
+## Criando um novo controller usando o console
+
+```php bin/console make:controller CarroController
+
+(cria
+
 ## Referências
 
 * https://github.com/vinnyfs89/study-symfony-4
