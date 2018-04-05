@@ -17,11 +17,6 @@ class Carro
     private $id;
 
     /**
-     * @ORM\Column(type="integer")
-     */
-    private $carro_id;
-
-    /**
      * @ORM\Column(type="string", length=255)
      */
     private $nome;
@@ -35,19 +30,7 @@ class Carro
     {
         return $this->id;
     }
-
-    public function getCarroId(): ?int
-    {
-        return $this->carro_id;
-    }
-
-    public function setCarroId(int $carro_id): self
-    {
-        $this->carro_id = $carro_id;
-
-        return $this;
-    }
-
+    
     public function getNome(): ?string
     {
         return $this->nome;

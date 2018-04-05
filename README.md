@@ -32,13 +32,23 @@ Configure seu .env
 Crie o banco
 
 ```php bin/console doctrine:database:create
-```php bin/console make:migration
 
 ## Criando um novo controller usando o console
 
 ```php bin/console make:controller CarroController
 
-(cria
+(cria um esqueleto)
+
+## Criando tabelas / entidades
+
+```php bin/console make:entity
+
+(crie a tabela)
+
+Esse script vai gerar uma entidade, na pasta src/Entity, já com os getters e setters. Após isso, gere o diff das entidades e suba as migrações:
+
+```php bin/console doctrine:migrations:diff
+```php bin/console make:migration
 
 ## Referências
 
